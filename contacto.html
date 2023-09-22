@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+        <title>contacto taller don Walo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <div class="contenedor">
+            <header class="superior">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logoC"/>
+                </div>  
+            </header>
+            <section>
+                <h1 class="titulo">Formulario de Contacto</h1>
+                <form>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                    <br/> 
+                    <label for="apellidoPaterno">Apellido Paterno</label>
+                    <input type="text" name="apellidoPaterno" id="apellidoPaterno">
+                    <br/> 
+                    <label for="apellidoMaterno">Apellido Materno</label>
+                    <input type="text" name="apellidoMaterno" id="apellidoMaterno">
+                    <br/>  
+                    <input type="radio" id="femenino" name="genero" value="F">
+                    <label for="femenino">SEXO FEMENINO</label>
+                    <br/>
+                    <input type="radio" id="masculino" name="genero" value="M">
+                    <label for="masculino">SEXO MASCULINO</label>
+                    <br/>
+                    <input type="radio" id="otro" name="genero" value="O">
+                    <label for="otro">OTRO</label>
+                    <br/>
+                    <label for="selec">NACIONALIDAD</label>
+                    <select name="selector" id="selec">
+                        <option value="chilena">Chilena</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="peruana">Peruana</option>
+                        <option value="otra">Otra</option>
+                    </select>
+                    <br/>
+                    <button type="submit" id="enviar">ENVIAR</button>
+                </form>
+            </section>
+            <footer class="pie">
+                <div class="numero">
+                    <img src="img/logo.png" alt=""/>
+                    <p>Estamos Ubicados en Chanquico Sur S/N - San Javier</p>
+                    <p>Llámanos al +569 12312345</p>
+                </div>
+                <div class="rrss">
+                    <p>Síguenos en nuestras redes sociales</p>
+                    <img src="img/insta.png" alt="instagram"/>
+                    <img src="img/twt.png" alt="twitter"/>
+                </div>
+            </footer>
+        </div>   
+    </body>
+</html>
+
+
